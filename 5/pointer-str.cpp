@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     
     cout << "str1 = " << str1 << endl;
     cout << "str2 = " << str2 << endl;
-    // cout << "p = " << p << endl;
+    cout << "p = " << p << endl;
     // for(i= -10; i<10; i++)
     //     cout << "p[" << i << "] = " << p[i]<< endl;
 

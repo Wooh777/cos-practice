@@ -67,7 +67,7 @@ int convert(char *snum)
     for (i=0; i<len; i++)
     {
         ret *= 10;
-        ret += (*(p+i) - 0x30);
+        ret += (*(p+i) - 0x30); //0x30 뺴는 이유 : 문자열을 숫자값으로 변환 
     }
 
     ret *= sign;
